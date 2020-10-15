@@ -10,6 +10,7 @@ body{
     font-family: "Lato", "sans-serif";
     margin: 1px;  
     
+    
 }
 
 .container{
@@ -25,6 +26,7 @@ background: linear-gradient(90deg, rgba(32,176,52,1) 0%, rgba(211,227,104,1) 47%
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    width: 97%;
 }
 
 .leftside{
@@ -76,19 +78,19 @@ color: white;
 
 .portfolio-items-wrapper{
   display: grid;
-  grid-template-columns:  auto auto auto;
+  grid-template-columns: 30% 30% 40%;
   border: 2px solid black;
 
 }
 
 .portfolio-item-wrapper{
      position: relative;
-     border: 2px solid black
+     border: 2px solid black;
          
 }
 
 .portfolio-img-background{
-height: 600px;
+height:450px;
 width: 100%;
 background-size:  cover;
 background-position: center;
@@ -100,12 +102,12 @@ background-repeat: no-repeat;
     position: absolute;
     top: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
     height: 100%;
-    text-align: center;
-    padding-left: 100px;
+    text-align:left;
+    padding-left: 10px;
     padding-right: 100px;
 }
 
@@ -141,12 +143,12 @@ color: lightseagreen;
     color:lightseagreen ;
   text-decoration: none;
 }
-
-
 .img-darken{
-transition: 1s;
-filter: brightness(10%)
-}
+    transition: 1s;
+    filter: brightness(10%)
+    }
+
+
 
 /*about page */
 
