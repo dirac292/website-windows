@@ -95,7 +95,7 @@ color: white;
 
 .portfolio-img-background{
 height: 78vh;
-width: 90%;
+width: 100%;
 background-size:  100% 100% ;
 background-position: top;
 background-repeat: no-repeat;
@@ -184,13 +184,17 @@ padding: 30px;
 
 @media(min-width:300px) and (max-width:600px){
     .nav-wrapper{
-        font-size: 0.7em;
-        padding: 5px;
-        width: 112%;
+        
+        padding: 9px;
+        width: 99%;
 
     }
+    .leftside{
+        font-size: 1em;
+    }
     .nav-wrapper > .rightside >div{
-        padding-right: 70px;
+        padding-right: 10px;
+        font-size: 0.7em;
     }
 
     .portfolio-items-wrapper{
@@ -198,8 +202,8 @@ padding: 30px;
     }
 
 .portfolio-img-background{
-    height: 80vh;
-    width: 355%;
+    height: 50vh;
+    width: 310%;
     
 
 
